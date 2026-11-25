@@ -15,25 +15,30 @@
 
   <h1>Privacy Policy — Joypad Party</h1>
   <p class="updated" style="margin-bottom:0">For the app <strong>Joypad Party</strong> (on the App Store as “Party Games - Joypad Party”) on Apple TV, iPad, iPhone and Mac.</p>
-  <p class="updated">Last updated: 17 November 2026</p>
+  <p class="updated">Last updated: 25 November 2026</p>
 
   <p>This Privacy Policy applies to <strong>Joypad Party</strong> (the “App”), published by <strong>Özcan Sarıdoğan</strong>
-  under the Crystal Nation name. It explains what the App stores and what it sends.</p>
+  under the Crystal Nation name. It explains what the App stores and what it sends. The App has no account and no sign-in.</p>
 
   <h2>Usage statistics</h2>
   <p>The App sends anonymous usage statistics to <strong>PostHog</strong>, our analytics provider (servers in the European
-  Union), so we can see how many people play and which games they play. The statistics cover:</p>
+  Union), so we can see how many people play and which games they play. The App sends only the fixed list of events below,
+  nothing else: no screen or tap recording, no session replay, no crash reports. The statistics cover:</p>
   <ul>
     <li>the App being opened, and a TV, iPad or Mac showing its connect screen (with a running count of that screen’s game sessions, so the events of one session can be grouped);</li>
     <li>a phone, game controller or Siri Remote joining, with the number of players and the kind of phone; on a phone, how it joined (from the list, by code or with the QR code) and the kind of screen;</li>
     <li>a game starting, a round reaching its results, or a game ending: which game, the number of players, how long it lasted, how many rounds were finished and how it ended (for example back to the games list, or everyone left);</li>
-    <li>the “get the app” QR code being shown, and which game store tile was chosen;</li>
+    <li>the “get the app” QR code being shown, and which game store tile was chosen; on a screen, also which games are free that day and whether the chosen game is one of them;</li>
     <li>a game asking for more phones before it can start: which game, how many phones it needed and how many were connected, and, if enough phones joined, how many seconds that took;</li>
     <li>after a game, the optional “How was …?” question being shown, and each phone’s answer to it: the game, the answer (Loved it, OK, Not good or skipped), the chips picked (such as “Laggy” or “Too hard”), the number of players in the room and the kind of phone.</li>
   </ul>
   <p>They include basic device information (device type and model, system and App version, language and region, screen
-  size, time zone) and a random ID that PostHog’s software creates for the App. PostHog receives your device’s IP address
-  when the statistics are uploaded, as with any internet service. We use the statistics to understand and improve the App.</p>
+  size, time zone) and a random ID that PostHog’s software creates for the App. They never include your player name,
+  anything you type, your purchases or your Apple Account, and the App never uses Apple’s advertising identifier. They are
+  not linked to you and are not used for tracking or advertising. PostHog receives your device’s IP address when the
+  statistics are uploaded, as with any internet service; the App tells PostHog not to use it to look up a location. We use
+  the statistics to understand and improve the App. Builds we make for our own testing (simulator, development and ad hoc
+  builds) send no statistics.</p>
   <p>“Send us a note” on that question opens your own mail app with an email to our address (its subject names the game, the App version and the device model); it reaches us like any other email.</p>
   <p><strong>Switching it off:</strong> “Share anonymous usage data” is on by default and can be switched off on each device:
   on a phone in the App’s menu, and on Apple TV, iPad and Mac with the “Usage data” tile in the store’s About row.</p>
@@ -41,18 +46,46 @@
   <h2>Data stored on your devices</h2>
   <p>On your phone, the App saves the name and colour you choose, your favourite and recently played games, your play
   statistics, the last screen you joined, a random ID that lets a screen recognise your phone when it reconnects, and your
-  settings. On the Apple TV, iPad or Mac, it saves game progress and settings. Deleting the App deletes this data.</p>
+  settings. On the Apple TV, iPad or Mac, it saves game progress and settings. Deleting the App deletes this data, except
+  your Latenight Streets wallet (see Purchases), which is kept in your phone’s Keychain.</p>
 
   <h2>Your local network</h2>
   <p>To play, your phone and your Apple TV, iPad or Mac find each other with Apple’s Bonjour on your Wi-Fi and connect
   directly. On iPhone, iPad and Mac, the system asks for the “Local Network” permission the first time; you can change it in
   <em>Settings › Privacy &amp; Security › Local Network</em> (on a Mac, <em>System Settings › Privacy &amp; Security ›
   Local Network</em>). Over that connection the phone sends the screen your player name, colour, random ID, App version and
-  controls, the text you type in a game (a Drawshow guess) and your answer to “How was …?”, and the screen sends the phones the game state and its device name (for example “Apple TV”). Other people on the
+  controls, the text you type in a game (a Drawshow guess) and your answer to “How was …?”, and the screen sends the phones the game state and its device name (for example “Apple TV”). For Joypad Pro and
+  Latenight Streets the phone also sends the screen its purchase status (whether it has Joypad Pro, which plan and until
+  when, Apple’s signed record of that purchase and its anonymous RevenueCat ID, see Purchases) and its Latenight Streets
+  wallet; the screen sends back the Gold earned or spent in the game. Other people on the
   same Wi-Fi who open the App can see the screen’s name and join a game.</p>
 
-  <h2>Purchases and ads</h2>
-  <p>The App has no account, no in-app purchases or subscriptions, and no advertising.</p>
+  <h2>Purchases</h2>
+  <p>The App is free to download and to play. Two kinds of purchase are optional:</p>
+  <ul>
+    <li><strong>Joypad Pro</strong>, an auto-renewing subscription (weekly or yearly) that unlocks every game and any number
+    of players for everyone in the room, with no breaks between games;</li>
+    <li><strong>Latenight Streets items</strong>: Gold (the game’s premium currency, which never expires), the starter pack
+    and the season passes.</li>
+  </ul>
+  <p>Both are bought on iPhone or iPad with Apple’s In-App Purchase. Apple handles the payment; we never receive your
+  payment details, your name or your Apple Account. Apple TV and Mac never sell anything; there, Restore Purchases checks
+  the Apple Account signed in on that device.</p>
+  <p><strong>RevenueCat.</strong> Purchases are recorded with <strong>RevenueCat</strong>, our subscription service
+  provider. On your phone, RevenueCat’s software receives Apple’s record of each purchase (the product, its price and
+  currency, the dates and Apple’s transaction number), basic information such as the App and system version, language and
+  store country, and a random anonymous ID that it creates for the App. When a phone joins, it gives the Apple TV, iPad or
+  Mac that anonymous ID, and the screen asks RevenueCat whether it has an active Joypad Pro; if RevenueCat cannot be
+  reached, the screen checks Apple’s signed record of the purchase instead. RevenueCat receives the device’s IP address, as
+  with any internet service. We use this data to unlock Joypad Pro for the room and to count sales and subscribers. It is
+  not linked to your identity and is not used for tracking or advertising.</p>
+  <p><strong>Your wallet.</strong> The Gold, items and season passes you buy for Latenight Streets are kept in a wallet in
+  your phone’s Keychain: it stays when you delete and reinstall the App. Gold stays on that phone; season passes come
+  back on another iPhone or iPad with Restore Purchases, from Apple’s record of the purchase.</p>
+
+  <h2>Ads</h2>
+  <p>The App shows no advertising from anyone else. In free rooms, the App takes a short break between some games and shows
+  our own Joypad Pro (on the phones, a 30-second video of our games).</p>
 
   <h2>Ratings</h2>
   <p>The App may show Apple’s standard rating prompt. Apple handles that prompt; we see only the public ratings and reviews
@@ -63,7 +96,8 @@
 
   <h2>Your choices</h2>
   <p>You can switch off the usage statistics at any time as described above, and delete the App’s saved data by deleting the
-  App. For any question or request, write to us at the address below.</p>
+  App. You can manage or cancel Joypad Pro at any time in your Apple Account settings. For any question or request, write to
+  us at the address below.</p>
 
   <h2>Changes to this policy</h2>
   <p>We may update this policy as the App evolves. Material changes will be reflected on this page with a revised “Last
